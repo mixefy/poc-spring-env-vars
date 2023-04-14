@@ -2,4 +2,4 @@ env:
   name:
     gamma
   network:
-    prod
+    new-network
