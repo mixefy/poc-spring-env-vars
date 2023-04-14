@@ -1,0 +1,5 @@
+env:
+  name:
+    gamma
+  network:
+    prod

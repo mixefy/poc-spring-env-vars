@@ -1,0 +1,13 @@
+env:
+  name:
+    local
+  network:
+    dev
+poc:
+  db-instance:
+    ${env.name}-instance
+  my-service:
+    address:
+      my-service.${env.name}.gw.${env.network}-poc-main-k8s01.cluster.${env.name}.mixefy.local:9090
+server:
+  port: 18080
